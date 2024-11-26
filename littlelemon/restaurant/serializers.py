@@ -20,4 +20,4 @@ class UserSerializer(serializers.ModelSerializer):
 class BookingSerializer(serializers.ModelSerializer):
     class Meta():
         model = Booking
-        fields = ['id', 'title', 'price', 'inventory']
+        fields = '__all__'
